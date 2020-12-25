@@ -3,7 +3,7 @@ package com.lwz.topic;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Topic3 {
+public class Topic03 {
 
     private static int lengthOfLongestSubstring(String s) {
         // 记录字符上一次出现的位置
@@ -43,6 +43,28 @@ public class Topic3 {
         }
 
         return res;
+    }
+
+    public static int lengthOfLongestSubstring3(String s) {
+        if ("".equals(s)) {
+            return 0;
+        }
+        Set<Character> set = new HashSet<>();
+        int temp = -1;
+        int len = s.length();
+        int max = 0;
+        for (int i = 0; i < len; i++) {
+            if (i != 0) {
+                set.remove(s.charAt(i - 1));
+            }
+            while (temp + 1 < len && !set.contains(s.charAt(temp + 1))) {
+                set.add(s.charAt(temp + 1));
+                ++temp;
+            }
+            max = max > set.size() ? max : set.size();
+        }
+
+        return max;
     }
 
     public static void main(String[] args) {
