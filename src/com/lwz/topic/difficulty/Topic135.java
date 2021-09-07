@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.difficulty;
 
 import java.util.LinkedList;
 import java.util.Queue;

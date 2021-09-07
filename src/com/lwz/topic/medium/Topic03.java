@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.medium;
 
 import java.util.HashSet;
 import java.util.Set;

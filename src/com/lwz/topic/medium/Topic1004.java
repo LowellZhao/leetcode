@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.medium;
 
 public class Topic1004 {
 

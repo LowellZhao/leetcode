@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.medium;
 
 import java.util.ArrayList;
 import java.util.List;

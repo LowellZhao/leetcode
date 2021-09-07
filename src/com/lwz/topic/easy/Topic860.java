@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.easy;
 
 import java.util.HashMap;
 

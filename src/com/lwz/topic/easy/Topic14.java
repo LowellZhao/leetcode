@@ -1,4 +1,4 @@
-package com.lwz.topic;
+package com.lwz.topic.easy;
 
 public class Topic14 {
 
